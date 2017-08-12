@@ -32,8 +32,3 @@ echo "$random" | xxd -r -p | hexdump -C
 else
 echo "$random" | xxd -r -p > $2
 fi
-
-
-
-
-

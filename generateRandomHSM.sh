@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script will generate random numbers based on the Smartcard-HSM (cardcontact.de)
-# It uses opensc-explorers scripting capability to chain APDU commands
+# It uses opensc-explorer to send APDU commands to the SC.
 # created 09.08.2017
 
 display_usage() {
